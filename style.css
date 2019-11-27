@@ -10,26 +10,32 @@ h1 {
     border-left: 200px;
 
 }
+h2 {
+    margin: 0px 200px 30px 200px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
 /* class selectors */
 .nav-list
 {
    float: right; 
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #333;
-  line-height: 150%;
+  width: 10%;
 }
 img {float: left}
+
 #styledImage {
     height: 300px;
-    width: 300px;
+    width: 250px;
     margin: 0px 10px 10px 0px;
 }
 footer {
-    height: 80px;
+    height: 60px;
     border-top: 8px solid #4aaaa5; background-color: #666666;
-    position: fixed;
     width: 100%;
+    align-content: center;
 }
 .clearfix::after {
 content: " ";
@@ -38,15 +44,14 @@ clear: both;
 }
 .content
 {
-  height: 400;
-  width: 960;
-  padding: 0;
+  width: 960px;
+  padding: 10px;
   margin: 0px 200px 30px 200px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  border-top: 2px solid #666666;
+  border-top: 1px solid #666666;
   background: #ffffff;
   background-image: src="/assets/images/greek-vase.png";}
 
