@@ -6,14 +6,20 @@ h1 {
     background-color:#4aaaa5; 
     color:white; 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width: 300px;
+    width: 33%;
+    height: 60px;
     border-left: 200px;
-
+    font-variant-position: center;
+    font-size: 45px;
 }
 h2 {
     margin: 0px 200px 30px 200px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+body {
+    background-image: src="/assets/images/greek-vase.png";
 }
 /* class selectors */
 .nav-list
@@ -22,7 +28,7 @@ h2 {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 15px;
   color: #333;
-  width: 10%;
+  width: 15%;
 }
 img {float: left}
 
