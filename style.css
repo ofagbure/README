@@ -53,5 +53,9 @@ clear: both;
   color: #333;
   border-top: 1px solid #666666;
   background: #ffffff;
-  background-image: src="/assets/images/greek-vase.png";}
+  background-image: src="/assets/images/greek-vase.png";
+}
+.push {
+    height: 200px;
+}
 
