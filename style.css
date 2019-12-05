@@ -52,7 +52,9 @@ a {
 a:hover {
     background-color: #4aaaa5;
 }
-
+a:visited {
+    color: purple;
+}
 #styledImage {
     float: left;
     height: 300px;
