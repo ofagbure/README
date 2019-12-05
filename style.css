@@ -1,5 +1,5 @@
 header {
-    margin: 0px 200px 0px 200px;
+    margin: 0px 0px 0px 200px;
     background-color: white;
 }
 h1 {
@@ -9,7 +9,7 @@ h1 {
     width: 33%;
     height: 60px;
     border-left: 200px;
-    font-variant-position: center;
+    border-bottom: 0px;
     font-size: 45px;
 }
 h2 {
@@ -21,18 +21,83 @@ h2 {
 /* class selectors */
 .nav-list
 {
-   float: right; 
+   float: right;
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 15px;
   color: #333;
-  width: 15%;
+  list-style-type: none;
+  display: inline;
+  padding: 0px;
+  margin: 0px 240px 0px 0px;
 }
-img {float: left}
+
+#about {
+    display: inline-block;
+    border-left: 1px solid #666666;
+}
+
+#portfolio {
+    display: inline-block;  
+    border-left: 1px solid #666666;
+}
+
+#contact {
+    display: inline-block;
+    border-left: 1px solid #666666;
+}
+
+a {
+    color: #333;
+}
+a:hover {
+    background-color: #4aaaa5;
+}
 
 #styledImage {
+    float: left;
     height: 300px;
     width: 250px;
     margin: 0px 10px 10px 0px;
+}
+
+#figure1 {
+    margin: 0px 5px 0px 0px;
+    display: table;
+    width: 30%;
+}
+
+#figure2 {
+    margin: 0px 5px 0px 0px;
+    display: table;
+    width: 30%;
+   
+}
+
+#figure3 {
+    margin: 0px 5px 0px 0px;
+    display: table;
+    width: 30%;
+}
+
+#figure4 {
+    margin: 0px 5px 0px 0px;
+    display: table;
+    width: 30%;
+}
+
+#figure5 {
+    margin: 0px 5px 0px 0px;
+    display: table;
+    width: 30%;
+}
+#caption1 {
+    display: table-caption;
+    caption-side: bottom;
+}
+
+#caption2 {
+    display: table-caption;
+    caption-side: bottom;
 }
 footer {
     height: 60px;
@@ -45,6 +110,7 @@ content: " ";
 display: block;
 clear: both;
 }
+
 .content
 {
   width: 960px;
@@ -54,10 +120,8 @@ clear: both;
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background: #ffffff;
-  background-image: src="/assets/images/greek-vase.png";
+  background-color: white;
 }
 .push {
     height: 200px;
 }
-
